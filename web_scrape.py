@@ -57,7 +57,7 @@ def main():
     query = input("Enter your search query: ")
     
     # API key for Exa API
-    api_key = "YOUR_EXA_API_KEY"  # Replace with your actual Exa API key
+    api_key = "YOUR_EXA_API_KEY"  # Placeholder to ensure no one steals api key -- Replace with your own
 
     # Perform search and summarization
     summary = search_and_summarize(query, api_key)
